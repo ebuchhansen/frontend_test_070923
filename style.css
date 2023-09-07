@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+
+.flex-container-nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;    
+
+    background-color: #8be9e9;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+}
+
+.flex-container-nav > div{
+    padding: 8px;
+    color: #fff;
+}
+
+.indholds-fortegnelse {
+    background-color: #f3f3f3;
+    padding: 15px 70px 30px 70px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+
+    background-color: #e7e7e7;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
