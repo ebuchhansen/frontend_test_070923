@@ -313,3 +313,85 @@ p {
     background-color: #ccebe5;
 }
 
+/*Contact form*/
+.contact-section {
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    gap: 10px;
+}
+
+.form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 500px;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+}
+
+.contact-form .form-control {
+    background: #4e4e4e;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.contact-form .btn {
+    background: #57dac4;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    float: right;
+    margin-right: -23px;
+}
+
+.contact-form .btn:hover {
+    background: #3a9284;
+    cursor: pointer;
+}
+
+.contact-info {
+    padding: 40px;
+    max-width: 600px;
+}
+
+.contact-info p {
+    padding: 0 5px 10px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #fff;
+    background: #57dac4;
+    padding: 0 5px;
+}
+
+.size {
+    max-width: 1000px;
+}
