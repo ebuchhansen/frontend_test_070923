@@ -1,10 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*For image gallery*/
+.grid {
+    margin: auto;
+    max-width: 1500px;
+    justify-content: center;
+}
+
 #hexGrid {
     display: flex;
     flex-wrap: wrap;
@@ -220,7 +226,7 @@
 
 /*For navigation menu*/
 
-.flex-container {
+.nav-container {
     display: flex;
     justify-content: center; 
     align-items: flex-start;   
@@ -232,16 +238,78 @@
     margin-bottom: 100px;
 }
 
-.flex-container div {
+.nav-container div {
     padding: 8px 30px;
 }
 
-.flex-container div a {
+.nav-container div a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     padding: 15px;
 }
-.flex-container div a:hover {
-    color: #7fffd4;
+.nav-container div a:hover {
+    color: #57dac4;
 }
+
+/*For personal info section*/
+
+.person-container {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: nowrap; 
+    background-color: #57dac4;
+    height: 100%;
+    padding: 50px;
+    gap: 5px;
+    margin-top: 100px;
+    gap: 15px;
+
+}
+
+.portrait {
+    height: 265px;
+    width: 230px;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.person-info {
+    padding: 8px;
+    color: #fff;
+    max-width: 1075px;
+}
+
+h1 {
+    font-weight: 300;
+    padding: 0;
+    margin-bottom: -5px;
+}
+
+h2 {
+    font-weight: 300;
+    color: #2e2e2e;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+p {
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.some {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2px;
+    padding-top: 25px;
+}
+
+.some a {
+    text-decoration: none;
+    color: #57dac4;
+    font-size: 25px;
+    padding: 0 7px ;
+    background-color: #ccebe5;
+}
+
